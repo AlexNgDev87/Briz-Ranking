@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(to bottom, #A1B5DD, #CDD0F1) no-repeat;
+}
+
+.container {
+    position: relative;
+    top: 13vh;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
+}
+
+.box-outline {
+    border-radius: 7px;
+    border: 1px solid #959595;
+    padding: 1.85em;
+    background-color: #F7F7F7;
+}
+
+.ranks-output {
+    margin-top: 13px;
+}

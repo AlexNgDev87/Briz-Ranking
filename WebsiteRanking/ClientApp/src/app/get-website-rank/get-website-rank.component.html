@@ -1,0 +1,17 @@
+<div>
+  <form>
+    <div class="form-group">
+      <label for="websiteUrl">Website Url</label>
+      <input type="text" class="form-control" multiple id="websiteUrl" [(ngModel)]="searchInfo.Url" name="Url"
+        placeholder="www.example.com.au">
+    </div>
+    <div class="form-group">
+      <label for="keyword">Keyword</label>
+      <input type="text" class="form-control" id="keyword" [(ngModel)]="searchInfo.Keyword" name="Keyword" placeholder="Add a keyword">
+    </div>
+    <button type="button" class="btn btn-primary" (click)="getWebsiteRank($event)">Send</button>
+  </form>
+  <div class="alert alert-success ranks-output" role="alert" *ngIf="results !== undefined && results.length > 0">
+    Your website is currently shown in ranks {{ results }}
+  </div>
+</div>
