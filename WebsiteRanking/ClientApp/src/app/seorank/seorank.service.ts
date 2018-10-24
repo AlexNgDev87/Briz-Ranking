@@ -5,7 +5,7 @@ import { HttpClient, HttpHeaders } from '@angular/common/http';
 export class SeorankService {
 
   private headers: HttpHeaders;
-  private accessPointUrl: string = 'http://localhost:64034/api/website';
+  private accessPointUrl: string = window.location.origin + '/api/website';
 
   constructor(private http: HttpClient) {
     this.headers = new HttpHeaders({ 'Content-Type': 'application/json; charset=utf=-8' });

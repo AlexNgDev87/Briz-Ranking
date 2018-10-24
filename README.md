@@ -12,7 +12,5 @@ Please make sure that your machine have both **.Net Core 2.1** and **Angular CLI
 1. Open the **WebSiteRanking.sln** using Visual Studio 2017
 2. Right-click on the **WebsiteRanking** project on the **Solution Explorer** and select **Rebuild**
 3. After the rebuild has been completed successfully, please press **F5** to run the project
-4. A browser with the following url **http://localhost:64420/** will open
-5. Enter both **Website Url** and **Keyword**
-6. Click on the **Send** button to get the results
-
+4. When the browser opened on the screen, please enter both the **Website Url** and **Keyword**
+5. Click on the **Send** button to get the results

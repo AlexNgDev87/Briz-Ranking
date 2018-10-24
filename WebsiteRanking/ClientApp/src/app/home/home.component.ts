@@ -3,6 +3,7 @@ import { ViewChild } from '@angular/core';
 import { Component, EventEmitter, Output, OnInit } from '@angular/core';
 import { SeorankService } from '../seorank/seorank.service';
 import { GetWebsiteRankComponent } from '../get-website-rank/get-website-rank.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
