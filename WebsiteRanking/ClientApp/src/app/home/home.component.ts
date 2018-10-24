@@ -3,7 +3,6 @@ import { ViewChild } from '@angular/core';
 import { Component, EventEmitter, Output, OnInit } from '@angular/core';
 import { SeorankService } from '../seorank/seorank.service';
 import { GetWebsiteRankComponent } from '../get-website-rank/get-website-rank.component';
-import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -18,7 +17,6 @@ export class HomeComponent implements OnInit {
 
   @ViewChild(GetWebsiteRankComponent)
   private websiteRankComponent: GetWebsiteRankComponent;
-
 
   constructor(private seoRankService: SeorankService) {
     this.status = -1;
